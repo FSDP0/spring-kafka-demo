@@ -1,0 +1,13 @@
+spring:
+    output:
+        ansi:
+            enabled: always
+    kafka:
+        bootstrap-servers: "localhost:9092,localhost:9093,localhost:9094"
+
+        consumer:
+            group-id: sample-group
+
+springdoc:
+    swagger-ui:
+        path: /swagger-ui.html
